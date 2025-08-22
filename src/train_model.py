@@ -44,10 +44,6 @@ print(f"Test set size: {len(X_test)}")
 print(f"The number of unique categories for training: {y_train.nunique()}")
 print(f"The number of unique categories for test: {y_test.nunique()}")
 
-# Folosim doar LinearSVC
-print(f"\n{'='*50}")
-print("Training LinearSVC...")
-print(f"{'='*50}")
 
 # LinearSVC Pipeline
 linear_svc_pipeline = Pipeline([
