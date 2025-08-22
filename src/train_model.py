@@ -79,5 +79,5 @@ final_model = Pipeline([
 final_model.fit(X, y)
 
 # Saving the model
-# joblib.dump(final_model, 'model/product_classifier.pkl')
-# print("Model saved as 'linear_svc_product_classifier.pkl'")
+joblib.dump(final_model, 'model/product_classifier.pkl')
+print("Model saved as 'model/product_classifier.pkl'")
